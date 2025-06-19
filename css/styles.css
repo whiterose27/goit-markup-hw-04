@@ -23,7 +23,7 @@ ol {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
   font-size: 16px;
-  width: 1440px;
+
   margin: 0 auto;
   padding: 0 auto;
   gap: 120px;
@@ -31,7 +31,9 @@ ol {
 
 /*Logo başlangıç*/
 .page-header {
+  width: 1440px;
   height: 72px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -137,8 +139,9 @@ ol {
 /* Slider alanı*/
 .section-slider {
   text-align: center;
+  margin: 0 auto;
   background: rgba(46, 47, 66, 0.7);
-  max-width: 1440px;
+  width: 1440px;
   height: 600px;
   padding: 150px;
   background-image: url(../images/people-office\ 1.jpg);
@@ -180,11 +183,13 @@ ol {
 /* Slider alanı bitti*/
 /* Açıklamalar başlangıç*/
 .section-first {
+  display: flex;
+  width: 1440px;
   flex-direction: row;
   padding: 120px 156px;
-  display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin: 0 auto;
 }
 .icon {
   border: 1px solid #8e8f99;
@@ -220,31 +225,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.social-icon {
-  display: flex;
-  padding: 0px 32px;
-  margin-top: 16px;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 24px;
-}
 
-.social-icon .link {
-  list-style: none;
-  width: 44px;
-  height: 44px;
-  display: block;
-  border-radius: 50%;
-  color: #afb1b8;
-  fill: #4d5ae5;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-icon .link:hover,
-.social-icon .link:active {
-  fill: #31d0aa;
-}
 /* Açıklamalar bitiş*/
 
 /* Our team başlangıç*/
@@ -300,6 +281,31 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.social-icon {
+  display: flex;
+  padding: 0px 32px;
+  margin-top: 16px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.social-icon .link {
+  list-style: none;
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+  color: #afb1b8;
+  fill: #4d5ae5;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon .link:hover,
+.social-icon .link:active {
+  fill: #404bbf;
 }
 
 .section-portfolio {
