@@ -39,6 +39,7 @@ ol {
   justify-content: space-between;
   padding: 24px 156px;
   border-bottom: 1px solid transparent;
+  gap: 76px;
 }
 
 .header-logo {
@@ -113,6 +114,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 251px;
   gap: 40px;
 }
 .contacts-list {
@@ -326,7 +328,7 @@ ol {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 24px;
   overflow: hidden;
@@ -426,12 +428,11 @@ footer {
 }
 .logo {
   display: block;
-  padding-left: 156px;
+  padding-left: 242px;
 }
 .footer-logo {
   display: flex;
   padding-top: 100px;
-
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
